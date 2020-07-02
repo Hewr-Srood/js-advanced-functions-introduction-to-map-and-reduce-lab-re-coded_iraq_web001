@@ -41,8 +41,8 @@ else{
 }
 
 function reduceToAllTrue(sourceArray){
- let a= sourceArray.reduce((accumulator, currentValue ) => 
- { 
+ let a= sourceArray.reduce((accumulator, currentValue ) =>
+ {
    if(currentValue === true){
    accumulator=true
  }
@@ -56,7 +56,7 @@ function reduceToAllTrue(sourceArray){
 
 
 function reduceToAnyTrue(sourceArray){
- let a= sourceArray.reduce(( accumulator, currentValue ) =>{ 
+ let a= sourceArray.reduce(( accumulator, currentValue ) =>{
    if(currentValue === true){
    accumulator=1
    accumulator++
