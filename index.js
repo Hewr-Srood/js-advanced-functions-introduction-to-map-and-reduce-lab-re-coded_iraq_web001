@@ -10,19 +10,19 @@ function mapToNoChange(sourceArray){
  let b= sourceArray.map(x=>x)
  return b
 }
-console.log(mapToNoChange([1,5,3,2]))
+
 
 function mapToDouble(sourceArray){
  let  c= sourceArray.map(x=>x*2)
  return c
 }
-console.log(mapToDouble([1,5,3,2]))
+
 
 function mapToSquare(sourceArray){
  let  d= sourceArray.map(x=>x*x)
  return d
 }
-console.log(mapToSquare([1,5,3,2]))
+
 
 function reduceToTotal(sourceArray, startingPoint){
 
